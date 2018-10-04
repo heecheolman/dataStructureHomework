@@ -24,3 +24,11 @@ int main(void) {
   std::cout << "max : " << max << std::endl;
   std::cout << "row : " << row << std::endl;
 }
+/*
+[input]
+
+[output]
+total : 77
+max : 19
+row : 6
+*/

@@ -48,6 +48,11 @@ int main(void) {
 3 45 5 4 2
 4 6 10 9 8
 
+[output]
+total : 196
+max : 45
+row : 3
+col : 1
 
 
 */
