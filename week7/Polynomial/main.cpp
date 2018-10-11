@@ -71,7 +71,6 @@ Polynomial multiPoly(Polynomial A, Polynomial B) {
     A_degree--;
     index_A++;
   }
-  // printPoly(multi);
   // 결과값이 될 multi 다항식의 최고차항을 결정해준다.
   multi.degree = A.degree + B.degree;
   return multi;
@@ -86,5 +85,4 @@ int main(void) {
   d = multiPoly(a, b);
   std::cout << "c(x) :"; printPoly(c);
   std::cout << "d(x) :"; printPoly(d);
-  // }
 }
